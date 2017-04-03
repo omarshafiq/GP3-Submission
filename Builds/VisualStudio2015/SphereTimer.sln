@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+Project("{AD0B58AB-BB88-3893-5F91-CA4CCC66A4DA}") = "SphereTimer", "SphereTimer.vcxproj", "{3F687298-F41D-9421-CCDC-7D625BA391BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F687298-F41D-9421-CCDC-7D625BA391BB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F687298-F41D-9421-CCDC-7D625BA391BB}.Debug|Win32.Build.0 = Debug|Win32
+		{3F687298-F41D-9421-CCDC-7D625BA391BB}.Release|Win32.ActiveCfg = Release|Win32
+		{3F687298-F41D-9421-CCDC-7D625BA391BB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

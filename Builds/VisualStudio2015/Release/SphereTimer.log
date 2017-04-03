@@ -1,0 +1,6 @@
+﻿  Main.cpp
+..\..\Source\Main.cpp(21): warning C4100: 'commandLine': unreferenced formal parameter
+..\..\Source\Main.cpp(38): warning C4100: 'commandLine': unreferenced formal parameter
+  Generating code
+  Finished generating code
+  SphereTimer.vcxproj -> C:\Users\User\Desktop\TIMER6667\Builds\VisualStudio2015\Release\SphereTimer.exe

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="TdxarS" name="SphereTimer" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.SphereTimer" includeBinaryInAppConfig="1"
+              jucerVersion="4.3.1" companyName="Ta0 Software" companyWebsite="http://ta0soft.com/">
+  <MAINGROUP id="qmiJFT" name="SphereTimer">
+    <GROUP id="{A07F6696-BED3-1AF2-39A7-8D8117A0737E}" name="Source">
+      <FILE id="BJZDRU" name="Camera.h" compile="1" resource="0" file="Source/Camera.h"/>
+      <FILE id="BOt3J4" name="Camera.cpp" compile="1" resource="0" file="Source/Camera.cpp"/>
+      <FILE id="u3xmeQ" name="Model.cpp" compile="1" resource="0" file="Source/Model.cpp"/>
+      <FILE id="NqjFfb" name="Model.h" compile="1" resource="0" file="Source/Model.h"/>
+      <FILE id="emyzkn" name="MainComponent.h" compile="1" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="GCEZtP" name="WavefrontObjParser.h" compile="1" resource="0"
+            file="Source/WavefrontObjParser.h"/>
+      <FILE id="qp3naU" name="Structures.h" compile="1" resource="0" file="Source/Structures.h"/>
+      <FILE id="MgIRy8" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="qnNidt" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="SphereTimer"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="SphereTimer"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="modules"/>
+        <MODULEPATH id="juce_events" path="modules"/>
+        <MODULEPATH id="juce_graphics" path="modules"/>
+        <MODULEPATH id="juce_gui_basics" path="modules"/>
+        <MODULEPATH id="juce_opengl" path="modules"/>
+        <MODULEPATH id="juce_audio_basics" path="modules"/>
+        <MODULEPATH id="juce_audio_devices" path="modules"/>
+        <MODULEPATH id="juce_audio_formats" path="modules"/>
+        <MODULEPATH id="juce_audio_processors" path="modules"/>
+        <MODULEPATH id="juce_audio_utils" path="modules"/>
+        <MODULEPATH id="juce_gui_extra" path="modules"/>
+        <MODULEPATH id="juce_data_structures" path="modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>

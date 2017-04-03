@@ -1,0 +1,19 @@
+﻿  Camera.cpp
+  Model.cpp
+  MainComponent.cpp
+  Main.cpp
+c:\users\user\desktop\timer6667\source\main.cpp(21): warning C4100: 'commandLine': unreferenced formal parameter
+c:\users\user\desktop\timer6667\source\main.cpp(38): warning C4100: 'commandLine': unreferenced formal parameter
+  juce_audio_basics.cpp
+  juce_audio_devices.cpp
+  juce_audio_formats.cpp
+  juce_audio_processors.cpp
+  juce_audio_utils.cpp
+  juce_core.cpp
+  juce_data_structures.cpp
+  juce_events.cpp
+  juce_graphics.cpp
+  juce_gui_basics.cpp
+  juce_gui_extra.cpp
+  juce_opengl.cpp
+  SphereTimer.vcxproj -> C:\Users\User\Desktop\TIMER6667\Builds\VisualStudio2015\Debug\SphereTimer.exe
